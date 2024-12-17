@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.lettera-container {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #b00000;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.firma {
+    font-style: italic;
+    text-align: right;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #b00000;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8c0000;
+}
+
+.notifica {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffcccb;
+    border: 1px solid #ff0000;
+    color: #b00000;
+    border-radius: 5px;
+    display: none;
+}
